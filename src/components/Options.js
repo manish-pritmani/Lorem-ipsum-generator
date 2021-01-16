@@ -1,15 +1,12 @@
 import React from 'react';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
-//Everything we sent from option param in app.js is received here as props.
 const Options = (props) => {
     const {includeHtml,setIncludeHtml,setInputValue,setTag,tag,setCopiedCode,copiedCode,paragraphs} = props;
 
-//Timeout hits every 2.5 seconds
     setTimeout(() =>{
         setCopiedCode(false);
     }, 2500);
-// Now we have access to all of the properties sent by App.js here in Options.js
     return (
         <div className="options">
             <div className="wrapper">
@@ -65,10 +62,3 @@ const Options = (props) => {
 }
 
 export default Options;
-
-
-// &lt; for left arrow and &gt; for right arrow.
-// Input element above is given minimum and maximum through the element attributes.
-// onChange event is very important above.
-//Notice how we are using 3rd party library Copy to Clipboard attrib text and onCopy
-// Select > Option

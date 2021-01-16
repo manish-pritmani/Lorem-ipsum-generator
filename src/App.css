@@ -9,7 +9,6 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-     /*  Margin Top-Bottom to 0, Left-Right to auto */
     padding: 40px 0;
 }
 
@@ -20,7 +19,7 @@ body{
 .title{
     width: 100%;
     padding: 26px 0;
-    color: #fff;    /*repetition can be written like this */
+    color: #fff;
     text-align: center;
     background: #0a91ab;
 }
@@ -61,7 +60,7 @@ body{
     color: #fff;
     border: none;
     outline: none;
-    padding: 10px 20px; /*TopBottom LeftRight */
+    padding: 10px 20px;
     width: 180px;
 }
 
@@ -76,7 +75,7 @@ body{
     background: #11698e;
     color: #fff;
     padding: 13px 0px;
-    cursor: pointer; /* By default cursor changes from pointer to hand but here we specify cursor to remain pointer */
+    cursor: pointer;
     font-size: 15px;
     font-weight: 700;
     border-radius: 4px;
@@ -87,8 +86,7 @@ body{
     padding: 40px;
     background: #0a91ab;
     border-radius: 4px;
-    box-shadow: 0px 10px 15px -7px #000, 5px 5px 15px 5px rgba(0,0,0,0); /* To add shadow effect to the box
-    param-> offset-x| offset-y| blur-radius |spread-radius| color*/
+    box-shadow: 0px 10px 15px -7px #000, 5px 5px 15px 5px rgba(0,0,0,0);
     color: #fff;
 }
 
@@ -96,7 +94,6 @@ body{
     line-height: 1.8;
 }
 
-/*Media Queries are applied when certain conditions are true inside it*/
 @media (max-width: 640px) {
     .title{
         padding: 26px;
