@@ -1,2 +1,2 @@
-# Initial page
+# Life and Software
 
